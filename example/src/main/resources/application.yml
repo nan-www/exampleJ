@@ -1,0 +1,22 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: demo
+#  datasource:
+#    url: jdbc:mysql://gz-cdb-5fh1jovb.sql.tencentcdb.com:63347/zhixun?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai&useSSL=false
+#    username: root
+#    password: prod@tc4wnzx
+#    hikari:
+#      maximum-pool-size: 20
+#      minimum-idle: 5
+#      connection-timeout: 30000
+#      idle-timeout: 60000
+#      max-lifetime: 1800000
+
+#mybatis:
+#  mapper-locations: classpath:/mapper/**/*.xml
+#  configuration:
+#    auto-mapping-behavior: partial
+#    map-underscore-to-camel-case: true
