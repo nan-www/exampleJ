@@ -18,6 +18,8 @@ public class ExampleApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(ExampleApplication.class, args);
+		List<String> s = new ArrayList<>();
+		var s1 = s.get(0);
 	}
 
 }
